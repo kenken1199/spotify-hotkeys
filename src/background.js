@@ -59,8 +59,8 @@ async function sendCommandToTab(command, tab) {
         //   `[aria-label="お気に入りの曲に追加"]`,
         // ],
         like: [
-          ".OgkbKIVYE_mrNpYESylB.Button-sc-1dqy6lx-0.emaScS.leSyTc",
-          `[aria-expanded="false"]`,
+          "footer .Button-sc-1dqy6lx-0.emaScS",
+          `[aria-label="お気に入りの曲に追加"]`,
         ],
       }[command];
       if (!selectors) throw "";
